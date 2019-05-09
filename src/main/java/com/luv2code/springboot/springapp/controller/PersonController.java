@@ -12,7 +12,7 @@ import com.luv2code.springboot.springapp.service.PersonService;
 
 
 @RestController
-@RequestMapping("/v2/persons")
+@RequestMapping("/persons")
 public class PersonController {
 
 	
