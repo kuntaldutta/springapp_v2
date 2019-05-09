@@ -28,9 +28,9 @@ public class PersonController {
 	
 	
 	@RequestMapping("/{id}")
-	public Person getPerson(@PathVariable("id") String id){
+	public String getPerson(@PathVariable("id") String id){
 		
-		return ps.getPerson(id);
+		return ps.getPersonFirstName(id);
 	}
 	
 	
